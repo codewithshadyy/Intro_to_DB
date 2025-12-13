@@ -1,0 +1,34 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Local MySQL (workspace)",
+      "driver": "MySQL",
+      "server": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "",
+      "askForPassword": true,
+      "database": "alx_book_store",
+      "socketPath": "/var/run/mysqld/mysqld.sock",
+      "previewLimit": 50
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "ALX Bookstore",
+      "group": "Local",
+      "database": "alx_book_store",
+      "username": "alx_user",
+      "connectionTimeout": 20,
+      "askForPassword": true
+    }
+  ],
+  "sqltools.useNodeRuntime": "default"
+}
